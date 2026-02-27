@@ -3,5 +3,6 @@ numpy
 matplotlib
 seaborn
 plotly
-altair 
+altair
 streamlit
+
