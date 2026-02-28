@@ -23,9 +23,9 @@ def load_data():
     
     return hour, day
 
+st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 hour_df, day_df = load_data()
 
-st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 st.title("Dashboard Analisis Penyewaan Sepeda")
 
 # Sidebar filters
